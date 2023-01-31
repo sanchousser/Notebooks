@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .headtext {
+            color: #272524;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .list {
+            display: flex;
+            position: absolute;
+            top: 5px;
+        }
+
+        .li1 {
+            padding: 10px;
+        }
+
+        .li2 {
+            padding: 10px;
+        }
+
+        .li3 {
+            display: flex;
+            flex-direction: row-reverse;
+            position: relative;
+            top: -50px;
+            padding: 0px 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .block {
+            background-image: url("oRectangle.jpg") ;
+            background-size: auto;
+            width: 100%;
+            height: 504px;
+            text-align: center;
+        }
+
+        .htext, .ptext, .button {
+            color: white;
+            position: relative;
+            top: 200px;
+
+        }
+
+        .htext {
+            font-size: 33px;
+            font-weight: normal;
+        }
+
+        .button {
+            text-decoration: none;
+        }
+
+        .sectionh2 {
+            text-align: center;
+            margin-top: 60px;
+            font-weight: normal;
+
+        }
+
+        .sectionp {
+            color: #A0A0A0;
+            text-align: center;
+        }
+
+        .sectiona {
+            text-align: center;
+            font-size: 14px;
+            padding: 0px 0px 30px 0px;
+        }
+
+
+        .block1 {
+            margin-top: 50px;
+            float: left;
+            text-align: center;
+            width: 50%;
+        }
+
+        .block2 {
+            margin-top: 50px;
+            float: right;
+            text-align: center;
+            width: 50%;
+        }
+
+        .block3 {
+            margin-top: 650px;
+            text-align: center;
+        }
+
+        .block3-h2 {
+            font-weight: normal;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            padding: 5px;
+        }
+
+        .block4 {
+            display: flex;
+            margin-top: 70px;
+            justify-content: center;
+            
+        }
+
+        .articlep {
+            color: #A0A0A0;
+        }
+
+        .article {
+            padding: 20px;
+        }
+
+        .block5 {
+            background-image: url("Rectangle\ copy\ 5.jpg");
+            width: 100%;
+            height: 504px;
+            margin-top: 100px;
+            text-align: center;
+            color: white;
+        }
+
+        .block5-text {
+            position: relative;
+            top: 150px;
+        }
+
+        .block6 {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .block6-text {
+            color: #A0A0A0;
+        }
+
+        .block7 {
+            margin-top: 50px;
+        }
+
+        .list1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .list1-list {
+            padding: 0px 10px;
+        }
+
+        .block8 {
+            margin-top: 70px;
+            text-align: center;
+        }
+
+        .block9 {
+            width: 100%;
+            height: 404px;
+            background-color: #9AA8B1;
+            margin-top: 80px;
+            text-align: center;
+            color: white;
+        }
+
+        .block9-h {
+            font-weight: normal;
+            position: relative;
+            top: 190px;
+            font-size: 33px;
+        }
+
+        .block9-p {
+            position: relative;
+            top: 210px;
+        }
+
+        .list2-li {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block10 {
+            display: inline;
+            justify-content: center;
+            position: relative;
+            top: -200px;
+            left: 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h1 class="headtext">GROVEMADE</h1>
+
+        <nav>
+            <ul class="list"> 
+                <li class="li1"><a href="">SHOP</a> </li>
+                <li class="li2"><a href="">EXPLORE</a></li>
+            </ul>
+            <ul>
+                <li class="li3"><a href="">MY CART</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="block">
+        <h2 class="htext">The Desk Shelf System</h2>
+        <p class="ptext">Available in Walnut or Maple</p>
+        <a href="/" class="button">Learn more</a>
+    </section>
+    <section>
+        <h2 class="sectionh2">Design Inspires</h2>
+        <p class="sectionp">Build your dream workspace, so you can get your best work done.</p>
+        <a class="sectiona" href="#"><p>GET STARTED</p></a>
+    </section>
+    <section>
+        <article class="block1">
+            <img src="./Rectangle copy.jpg" alt="">
+            <h3>Desk Pads</h3>
+            <a href="#">LEARN MORE</a>
+        </article>
+        <article class="block2">
+            <img src="./Rectangle copy 2.jpg" alt="">
+            <h3>Laptop Stands</h3>
+            <a href="#">LEARN MORE</a>
+        </article>
+    </section>
+    <section class="block3">
+        <h2 class="block3-h2">Featured Products</h2>
+        <p>See What’s Trending Right Now</p>
+        <div class="boxes">
+            <img class="box" src="./Rectangle copy 3.jpg" alt="">
+            <img class="box" src="./Rectangle copy 3.jpg" alt="">
+            <img class="box" src="./Rectangle copy 3.jpg" alt="">
+        </div>
+    </section>
+    <section class="block4">
+        <div class="article">
+            <img src="./aRectangle.jpg" alt="">
+            <p class="articlep">
+                Walnut MagSafe Stand<br>$120
+            </p>
+        </div> 
+        <div class="article">
+            <img src="./Rectangle copy 4.jpg" alt="">
+            <p class="articlep">
+                Walnut Laptop Riser<br>$150
+            </p>
+
+        </div> 
+        <div class="article">
+            <img src="./aRectangle (1).jpg" alt="">
+            <p class="articlep">
+                Walnut Ipad Stand<br>$80
+            </p>
+
+        </div> 
+        <div class="article">
+            <img src="./aRectangle (2).jpg" alt="">
+            <p class="articlep">
+                Walnut Monitor Stand<br>$100
+            </p>
+        </div> 
+
+
+    </section>
+    <section class="block5">
+        <div class="block5-text">
+            <h2 style="font-weight: normal;">Home Office Inspiration</h2>
+            <p>Working from home can be a challenge—see some creative solutions to get it just right.</p>
+            <a style="color: white;" href="">LEARN MORE</a>
+        </div>
+    </section>
+
+    <section class="block6">
+        <h2 style="font-weight: normal;">Made The Hard Way</h2>
+        <p class="block6-text">Our signature craftsmanship has been honed over a decade of manufacturing innovation here in<br> Portland, Oregon. We combine the skills of our small in-house team with the collective strength of<br> collaborators throughout the US to deliver quality products worth investing in.</p>
+        <img src="./image 1.jpg" alt="">
+        <h2 style="font-weight: normal;">Make Work Meaningful</h2>
+        <p class="block6-text">We're here because we believe that your work deserves the best. A team that loves working together<br> is the magic that makes it all happen.</p>
+    </section>
+    <section class="block7">
+        <ul class="list1">
+            <li class="list1-list">
+                <img src="./Rectangle copy 6.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (1) copy.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (2) copy.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (3) copy.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (4).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (5).jpg" alt="">
+            </li>
+        </ul>
+        <ul class="list1">
+            <li class="list1-list">
+                <img src="./Rectaingle.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectaingle (5.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectaingle (1).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectaingle (2).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectaingle (3).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectaingle (4).jpg" alt="">
+            </li>
+        </ul>
+                <ul class="list1">
+            <li class="list1-list">
+                <img src="./Rectangle.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (1).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (2).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (3).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (4).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./Rectangle (5).jpg" alt="">
+            </li>
+        </ul>
+        <ul class="list1">
+            <li class="list1-list">
+                <img src="./iRectangle.jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./iRectangle (1).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./iRectangle (2).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./iRectangle (3).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./iRectangle (4).jpg" alt="">
+            </li>
+            <li class="list1-list">
+                <img src="./iRectangle (5).jpg" alt="">
+            </li>
+        </ul>
+    </section>
+    <section class="block8">
+        <h2 style="font-weight: normal; font-size: 27px;">We Hope You'll Join Us</h2>
+        <a style="font-size: 13px;" href="">READ MORE ABOUT OUR STORY</a>
+    </section>
+    <section class="block9">
+        <h2 class="block9-h">Design Inspires</h2>
+        <p class="block9-p">Build your dream workspace, so you can get your best work done.</p>
+    </section>
+    <section>
+        <ul class="list2">
+            <li class="list2-li">
+                <a href="">Shop</a>
+            </li>
+            <li class="list2-li">
+                <a href="">About</a>
+            </li>
+            <li class="list2-li">
+                <a href="">Journal</a>
+            </li>
+            <li class="list2-li">
+                <a href="">Support</a>
+            </li>
+            <li>
+                <a href="">COVID-19 Info</a>
+            </li>
+            <li class="list2-li">
+                <a href="">Order Status</a>
+            </li>
+            <li class="list2-li">
+                <a href="">Corporate Sales</a>
+            </li>
+        </ul>
+    </section>
+    <section class="block10">
+        <h3>Newsletter Signup</h3>
+        <p>Sign up to our Newsletter to hear about new<br> product releases, learn about our design process,<br> and everything else going on behind the scenes<br> at Grovemade.</p>
+    </section>
+    
+</body>
+</html>
