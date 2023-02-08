@@ -11,17 +11,14 @@
             color: #272524;
             text-align: center;
             font-weight: normal;
+            text-decoration: none;
+            font-size: 30px;
         }
 
         li {
             list-style: none;
         }
 
-        .list {
-            display: flex;
-            position: absolute;
-            top: 5px;
-        }
 
         .li1 {
             padding: 10px;
@@ -31,13 +28,6 @@
             padding: 10px;
         }
 
-        .li3 {
-            display: flex;
-            flex-direction: row-reverse;
-            position: relative;
-            top: -50px;
-            padding: 0px 10px;
-        }
 
         a {
             text-decoration: none;
@@ -159,6 +149,8 @@
 
         .block7 {
             margin-top: 50px;
+            display: flex;
+            justify-content: center;
         }
 
         .list1 {
@@ -210,20 +202,33 @@
             left: 250px;
         }
 
+        .head {
+            display: flex;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .ul {
+            display: flex;
+
+        }
+
     </style>
 </head>
 <body>
     <header class="head">
-        <h1 class="headtext">GROVEMADE</h1>
-
-        <nav>
-            <ul class="list"> 
+        <nav class="nav">
+            <ul class="ul"> 
                 <li class="li1"><a href="">SHOP</a> </li>
                 <li class="li2"><a href="">EXPLORE</a></li>
             </ul>
-            <ul>
-                <li class="li3"><a href="">MY CART</a></li>
-            </ul>
+            <a class="headtext">GROVEMADE</a>
+            <a href="">MY CART</a>
         </nav>
     </header>
     <section class="block">
@@ -303,86 +308,7 @@
         <p class="block6-text">We're here because we believe that your work deserves the best. A team that loves working together<br> is the magic that makes it all happen.</p>
     </section>
     <section class="block7">
-        <ul class="list1">
-            <li class="list1-list">
-                <img src="./Rectangle copy 6.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (1) copy.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (2) copy.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (3) copy.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (4).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (5).jpg" alt="">
-            </li>
-        </ul>
-        <ul class="list1">
-            <li class="list1-list">
-                <img src="./Rectaingle.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectaingle (5.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectaingle (1).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectaingle (2).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectaingle (3).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectaingle (4).jpg" alt="">
-            </li>
-        </ul>
-                <ul class="list1">
-            <li class="list1-list">
-                <img src="./Rectangle.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (1).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (2).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (3).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (4).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./Rectangle (5).jpg" alt="">
-            </li>
-        </ul>
-        <ul class="list1">
-            <li class="list1-list">
-                <img src="./iRectangle.jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./iRectangle (1).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./iRectangle (2).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./iRectangle (3).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./iRectangle (4).jpg" alt="">
-            </li>
-            <li class="list1-list">
-                <img src="./iRectangle (5).jpg" alt="">
-            </li>
-        </ul>
+        <img src="./Frame.jpg" alt="">
     </section>
     <section class="block8">
         <h2 style="font-weight: normal; font-size: 27px;">We Hope You'll Join Us</h2>
